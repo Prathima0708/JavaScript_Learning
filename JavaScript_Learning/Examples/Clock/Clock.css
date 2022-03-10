@@ -5,6 +5,11 @@
 }
 body{
     background: linear-gradient(to right,rgb(66, 235, 131),rgb(24, 99, 184));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
 }
 .clock
 {
@@ -23,6 +28,8 @@ body{
     height: 100%;
     text-align: center;
     transform: rotate(var(--rotation));
+    font-size: 1.5rem;
+    font-weight: bold;
    
 }
 
