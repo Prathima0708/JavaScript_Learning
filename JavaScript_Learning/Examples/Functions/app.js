@@ -111,3 +111,34 @@ startGameBtn.addEventListener("click", function () {
   alert(message)
   gameIsRunning=false
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//not related to game(rest operator)
+
+const sumUp=(a,b,...numbers)=>{
+  let sum=0
+  for(const num of numbers){
+    sum=sum+num
+    
+  }
+  return sum
+ 
+}
+console.log(sumUp(1,2,3,4,5))
+console.log(sumUp(1,2,3,4,5,5,6))
